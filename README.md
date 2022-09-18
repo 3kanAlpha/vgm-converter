@@ -3,3 +3,9 @@ vgmstreamを使ってゲームの音声ファイルを一般的な形式に変�
 
 ## Requirements
 - [vgmstream](https://github.com/vgmstream/vgmstream)
+- [PyYAML](https://pyyaml.org/)
+
+## Usage
+```sh
+$ python convert.py [-h] [-i INPUT_DIR] [-o OUTPUT_DIR] [-e EXT]
+```
